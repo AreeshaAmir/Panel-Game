@@ -682,7 +682,7 @@ def Category2_RD3(frame, window):
     q2_msg.place(relx=0.001, rely=0.45, height=25, width=340)
     q2_msg.configure(width=300)
     q2_msg.configure(background="#E7C4C4")
-    q2_msg.configure(text="2.In Quran Imam us nas is the title of which prophet?")
+    q2_msg.configure(text="2.In Quran Imam-Un-Nas is the title of which prophet?")
 
     q2_ans1 = Radiobutton(frame, text="Hazrat Ibrahim (A.S)", font="Times 10", background="#E7C4C4",
                           value=1, variable=q2Var)
