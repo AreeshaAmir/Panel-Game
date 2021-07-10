@@ -1,9 +1,9 @@
 import sys
 from tkinter import *
 from tkinter import messagebox
+import datetime, getpass
 
 TotalScore = 0
-
 
 # ****************************** Scoring and Validation ************************************
 
@@ -200,6 +200,16 @@ def Validation(AnswerDict, Funct, frame, window):
 
             messagebox.showinfo('Result', Result_Msg,
                                 icon='info')
+
+            f = open("logs.txt", "a")
+            f.write(', '.join([getpass.getuser(),
+                               datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+                               str(TotalScore),
+                               str(Percentage) + '%',
+                               "Win" if Percentage > 50 else "Lose"
+                               ]) + '\n')
+            f.close()
+
             window.destroy()
 
 
