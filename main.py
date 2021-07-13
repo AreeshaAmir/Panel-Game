@@ -52,7 +52,7 @@ def initialize(window):
 
 def Total(AnswerDict):
     key = list(AnswerDict.keys())[0]
-    KeyList = AnswerDict[list(AnswerDict.keys())[0]]
+    KeyList = AnswerDict[key]
 
     global TotalScore
 
@@ -178,7 +178,8 @@ def Total(AnswerDict):
 
 
 def Validation(AnswerDict, Funct, frame, window):
-    AnswerList = AnswerDict[list(AnswerDict.keys())[0]]
+    key = list(AnswerDict.keys())[0]
+    AnswerList = AnswerDict[key]
 
     if AnswerList.count(0) > 0:
         messagebox.showerror("Error", "Please Select an Option")
