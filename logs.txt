@@ -1,0 +1,10 @@
+mm computer, 10/07/2021 18:17:29, 9, 22.5%, Lose
+mm computer, 10/07/2021 18:18:10, 9, 22.5%, Lose
+mm computer, 11/07/2021 00:11:44, 39, 97.5%, Win
+mm computer, 11/07/2021 00:15:50, 40, 100.0%, Win
+mm computer, 12/07/2021 00:16:53, 32, 80.0%, Win
+mm computer, 13/07/2021 02:59:09, 12, 30.0%, Lose
+mm computer, 13/07/2021 23:36:10, 8, 20.0%, Lose
+mm computer, 14/07/2021 03:35:41, 10, 25.0%, Lose
+mm computer, 14/07/2021 03:44:29, 5, 12.5%, Lose
+mm computer, 14/07/2021 04:11:42, 6, 15.0%, Lose
